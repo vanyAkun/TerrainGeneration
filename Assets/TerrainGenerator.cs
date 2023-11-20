@@ -209,7 +209,7 @@ public class TerrainGenerator : MonoBehaviour
                     switch (terrainStyle)
                     {
                         case TerrainStyle.TerrainColour:
-                            colours[1] = TerrainGradient.Evaluate(height);
+                            colours[i] = TerrainGradient.Evaluate(height);
                             break;
 
                         case TerrainStyle.BlackToWhite:
